@@ -27,7 +27,10 @@ short_tickers = [
     "PANW", "VLO", "COR", "BXP", "MRO", "HAL", "MRNA"
 ]
 
-all_tickers = long_tickers + short_tickers
+# Add SPY or another benchmark
+market_ticker = ["SPY"]
+
+all_tickers = long_tickers + short_tickers + market_ticker
 print(f"Defined {len(long_tickers)} long tickers and {len(short_tickers)} short tickers.")
 
 # %%
